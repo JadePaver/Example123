@@ -6,8 +6,85 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Apple</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur ipsam expedita earum placeat nihil temporibus, consequuntur neque a maiores pariatur! Eveniet, voluptas earum fuga modi deleniti ea facilis vel nisi.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur ipsam expedita earum placeat nihil temporibus, consequuntur neque a maiores pariatur! Eveniet, voluptas earum fuga modi deleniti ea facilis vel nisi.</p>
+    <div class="card-swiper">
+        <div class="card-groups">
+            <div class="card-group" data-index="0" data-status="active">
+                Parents
+                <div class="big-card card">One</div>
+                <div class="big-card card">One</div>
+                <div class="big-card card">One</div>
+                <div class="big-card card">One</div>
+                <div class="small-card card">One</div>
+                <div class="small-card card">One</div>
+                <div class="small-card card">One</div>
+                <div class="small-card card">One</div>
+            </div>
+            <div class="card-group" data-index="1" data-status="unknown">
+                Parents
+                <div class="big-card card">22</div>
+                <div class="big-card card">22</div>
+                <div class="big-card card">22</div>
+                <div class="big-card card">22</div>
+                <div class="small-card card">2222</div>
+                <div class="small-card card">2222</div>
+                <div class="small-card card">2222</div>
+                <div class="small-card card">2222</div>
+            </div>
+            <div class="card-group" data-index="3" data-status="unknown">
+                Parents
+                <div class="big-card card">4444</div>
+                <div class="big-card card">4444</div>
+                <div class="big-card card">4444</div>
+                <div class="big-card card">4444</div>
+                <div class="small-card card">4444</div>
+                <div class="small-card card">4444</div>
+                <div class="small-card card">4444</div>
+                <div class="small-card card">4444</div>
+            </div>
+            <div class="card-group" data-index="2" data-status="unknown">
+                Parents
+                <div class="big-card card">Three</div>
+                <div class="big-card card">Three</div>
+                <div class="big-card card">Three</div>
+                <div class="big-card card">Three</div>
+                <div class="small-card card">Three</div>
+                <div class="small-card card">Three</div>
+                <div class="small-card card">Three</div>
+                <div class="small-card card">Three</div>
+            </div>
+
+        </div>
+        <div class="card-swiper-buttons">
+            <button id="hate-button" onclick="handleHateClick()">
+                <i class="fa-solid fa-x">X</i>
+            </button>
+            <button id="love-button" onclick="handleLoveClick()">
+                <i class="fa-solid fa-heart">Y</i>
+            </button>
+        </div>
+    </div>
+    <form class="input-form">
+    <p>Fullname:</p>
+    <div class="input-field">
+        
+        <div class="input-fullname">
+            <div>
+                <label for="First">First:</label>
+                <input id="First" class="inputs" type="text">
+            </div>
+            <div>
+                <label for="Middle">Middle:</label>
+                <input id="Middle" class="inputs" type="text">
+            </div>
+            <div>
+                <label for="Last">Last:</label>
+                <input id="Last" class="inputs" type="text">
+            </div>
+        </div>
+    </div>
+</form>
+    <button class="submit-btn">Submit</button>
+
+
 </body>
 </html>
